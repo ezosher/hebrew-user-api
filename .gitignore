@@ -14,6 +14,8 @@ node_modules
 ### HUA Library
 utils
 lib/*
+test
+index.js
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
