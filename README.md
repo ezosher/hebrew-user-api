@@ -2,7 +2,7 @@
 
 # Hebrew user Api (Mockup Api)
 
-Hebrew user Api is the first `Js` library for Prototyping and Playing around with fake data in a local inviorment all in **Hebrew** . get a fake REST API with random values all based on `json-server` package and endpoints
+Hebrew user Api is the first **Hebrew** Mockup Api library for Prototyping and Playing around with fake data in a local inviorment all based on Hebrew language format. get a fake `REST API` data with random values. based on [json-server](https://github.com/json-server) package and endpoints
 
 ## Installation
 
@@ -14,7 +14,7 @@ Use the package manager `npm` to install dependedcies.
 
 ## Usage
 
-```javascript
+```bash
 npm start-server
 ```
 ## REST endpoints
@@ -29,14 +29,13 @@ DELETE /users/1  // returns all 'users'
 ```
 ## User Schema
 
+- Male Name/Female Name
 - Job Title
-- Male Name 
-- Female Name
 - Last Name
 - Birth Date
 - Credit Card Number
 - Email
-- Address
+- Full Address
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

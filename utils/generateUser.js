@@ -4,7 +4,7 @@ const _ = require('lodash')
 
 //TODO: Add Global Names Path
 //TODO: Generate json from names
-//TODO: User Lodash to generate Unique Titles
+//TODO: Use Lodash to generate Unique Titles
 //TODO: Add Job Titles
 //TODO: Add Moment for Dates
 //TODO: Check For treeshaking
@@ -29,3 +29,5 @@ module.exports = {
 //         console.log(array[i]);
 //     }
 // });
+
+
