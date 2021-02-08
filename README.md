@@ -15,7 +15,7 @@ Use the package manager `npm` to install dependedcies.
 ## Usage
 
 ```bash
-npm start-server
+npm run start-server
 ```
 ## REST endpoints
 
