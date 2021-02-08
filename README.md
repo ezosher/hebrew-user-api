@@ -2,7 +2,7 @@
 
 # Hebrew user Api (Mockup Api)
 
-Hebrew user Api is the first **Hebrew** Mockup Api library for Prototyping and Playing around with fake data in a local inviorment all based on Hebrew language format. get a fake `REST API` data with random values. based on [json-server](https://github.com/json-server) package and endpoints
+Hebrew user Api is the first **Hebrew** Mockup Api library for Prototyping and Playing around with fake data in a local inviorment all based on Hebrew language format. get a fake `REST API` data with random values. based on [json-server](https://github.com/typicode/json-server) package and endpoints
 
 ## Installation
 
@@ -20,22 +20,48 @@ npm run start-server
 ## REST endpoints
 
 ```javascript
-GET    /users    // returns all 'users'
-GET    /users/1  // returns all 'users'
-POST   /users    // returns all 'users'
-PUT    /users/1  // returns all 'users'
-PATCH  /users/1  // returns all 'users'
-DELETE /users/1  // returns all 'users'
+GET    /users    
+GET    /users/1  
+POST   /users    
+PUT    /users/1  
+PATCH  /users/1  
+DELETE /users/1
 ```
-## User Schema
+More Information about `REST` endpoints and options can be found on [json-server](https://github.com/typicode/json-server) Docs
 
-- Male Name/Female Name
-- Job Title
-- Last Name
-- Birth Date
-- Credit Card Number
+## User Schema
+Cuurent User count in db is `100` more options and data will be added soon 
+
+- Full Name: Male name/ Female name/ Last Name
+- Mobile Number
+- Land Line Number
 - Email
 - Full Address
+   -City
+   -Street
+   -Postcode 
+- **Job Title: Soon**
+- **Coomerce: soon**
+- **Birth Date: Soon**
+
+## Response Example 
+```json
+ {
+    "id": 5,
+    "name": "ירדנה לוי",
+    "mobile": "057-717-0149",
+    "land_line": "09-277-2740",
+    "email": "11@gmail.com",
+    "address": {
+      "addressId": 5,
+      "city": "כפר מימון",
+      "street": "השושן",
+      "number": 125,
+      "postcode": 3578083
+    }
+  },
+
+```
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

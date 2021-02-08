@@ -23,7 +23,6 @@
    },
    "homepage": "https://github.com/ezosher/hebrew-user-api#readme",
    "dependencies": {
-      "express": "^4.17.1",
       "json-server": "^0.16.3",
       "lodash": "^4.17.20"
    }
