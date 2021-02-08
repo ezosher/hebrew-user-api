@@ -13,7 +13,7 @@ node_modules
 
 ### HUA Library
 utils
-lib
+lib/*
 
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
