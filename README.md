@@ -6,7 +6,7 @@ Hebrew user Api is the first **Hebrew** Mockup Api library for Prototyping and P
 
 ## Installation
 
-Use the package manager `npm` to install dependedcies.
+Use the package manager `npm` to install dependencies.
 
 ```bash
  npm install
@@ -30,7 +30,7 @@ DELETE /users/1
 More Information about `REST` endpoints and options can be found on [json-server](https://github.com/typicode/json-server) Docs
 
 ## User Schema
-Cuurent User count in db is `100` more options and data will be added soon 
+Current User count in db is `100` more options and data will be added soon 
 
 - Full Name: Male name/ Female name/ Last Name
 - Mobile Number
@@ -41,7 +41,7 @@ Cuurent User count in db is `100` more options and data will be added soon
    -Street
    -Postcode 
 - **Job Title: Soon**
-- **Coomerce: soon**
+- **Commerce: soon**
 - **Birth Date: Soon**
 
 ## Response Example 
@@ -65,13 +65,11 @@ Cuurent User count in db is `100` more options and data will be added soon
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
 Please make sure to update tests as appropriate.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
 ## Roadmap
-Expusing Functions to genreate each individual paramater to create your own unique API schema
-
+Exposing Functions to generate each individual parameter to create your own unique API schema
 If you have ideas for releases in the future, it is a good idea to list them in the Feature Request File.
